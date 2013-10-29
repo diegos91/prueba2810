@@ -16,6 +16,10 @@ public class UserDiego {
 		return "" + nombre + segundoNombre + apellido;
 	}
 	
+	public void ComerPibe(){
+		
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
