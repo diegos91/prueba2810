@@ -17,7 +17,7 @@ public class UserDiego {
 	}
 	
 	public void ComerPibe(Object obj){
-		if(obj instanceof UserGuille) {
+		if(obj instanceof LeonelNievas) {
 			System.out.println("Me encanta, me lo como todo");
 		}
 	}
