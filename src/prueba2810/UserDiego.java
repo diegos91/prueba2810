@@ -16,8 +16,10 @@ public class UserDiego {
 		return "" + nombre + segundoNombre + apellido;
 	}
 	
-	public void ComerPibe(){
-		
+	public void ComerPibe(Object obj){
+		if(obj instanceof UserGuille) {
+			System.out.println("Me encanta, me lo como todo");
+		}
 	}
 	
 	public static void main(String[] args) {
